@@ -22,6 +22,7 @@ public class UserController {
      */
     @GetMapping("/{id}")
     public User queryById(@PathVariable("id") Long id) {
+        System.out.println("111");
         return userService.queryById(id);
     }
 }
