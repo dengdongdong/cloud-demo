@@ -21,3 +21,14 @@ eureka:
   client:
     service-url: # 地址信息
       defaultZone: http://localhost:10086/eureka
+# 定向配置
+userServer:
+  ribbon:
+    NFLoadBalanceRuleClassName: com.netflix.loadbalancer.RandomRule #负载均衡
+
+#饿汉式加载(系统启动时加ribbon载服务列表)
+ribbon:
+  eager-load:
+    enabled: true #开启饿汉记载
+    clients:   #指定加载的服务名称
+      - userServer

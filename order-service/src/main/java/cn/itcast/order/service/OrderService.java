@@ -27,10 +27,10 @@ public class OrderService {
 //        2、利用RestTemlate发送http请求，查询用户信息
 //2.1、URL路径
 
-        String url="http://localhost:8081/user/"+order.getUserId();
+        String url="http://userServer/user/"+order.getUserId();
 //        2.2、发送http请求，实现远程调用
-        ResponseEntity<User> forEntity = restTemplate.getForEntity(url,User.class);
-        System.out.println("ResponseEntity<User>:"+forEntity.toString());
+//        ResponseEntity<User> forEntity = restTemplate.getForEntity(url,User.class);
+//        System.out.println("Respons0eEntity<User>:"+forEntity.toString());
         User user = restTemplate.getForObject(url, User.class);
 //        3、封装user到order
         order.setUser(user);
