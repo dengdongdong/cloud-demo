@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0882177f-9b68-4ee3-a81c-b419db4ee32f" name="Default Changelist" comment="2021-12-13解决冲突">
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/cn/itcast/order/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/cn/itcast/order/OrderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/cn/itcast/order/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/cn/itcast/order/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/target/classes/cn/itcast/order/OrderApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/classes/cn/itcast/order/OrderApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/target/classes/cn/itcast/order/service/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/classes/cn/itcast/order/service/OrderService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/cn/itcast/user/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/cn/itcast/user/web/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/cn/itcast/user/web/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/cn/itcast/user/web/UserController.class" afterDir="false" />
-    </list>
+    <list default="true" id="0882177f-9b68-4ee3-a81c-b419db4ee32f" name="Default Changelist" comment="2021-12-13解决冲突" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,6 +44,7 @@
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
         <option name="jdkForImporter" value="1.8" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
@@ -63,12 +52,6 @@
   </component>
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-2" />
-    <option name="y" value="44" />
-    <option name="width" value="1750" />
-    <option name="height" value="980" />
   </component>
   <component name="ProjectId" id="22E5045dinB1cXPM08poQz3DfeW" />
   <component name="ProjectViewState">
@@ -95,7 +78,7 @@
   <component name="RequestMappingsEndpointTabSettings">
     <option name="showLibraryMappings" value="false" />
   </component>
-  <component name="RunManager" selected="Spring Boot.UserApplication2">
+  <component name="RunManager" selected="Spring Boot.UserApplication">
     <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="eureka-service" />
       <extension name="coverage">
@@ -139,7 +122,7 @@
       <item itemvalue="Spring Boot.EurekaApplication" />
     </list>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SpringBeansView">
     <option name="showFilesets" value="false" />
     <option name="showFiles" value="false" />
@@ -172,6 +155,7 @@
       <workItem from="1641196895087" duration="594000" />
       <workItem from="1641198232623" duration="207000" />
       <workItem from="1671423914694" duration="4000" />
+      <workItem from="1671545866886" duration="703000" />
     </task>
     <servers />
   </component>
